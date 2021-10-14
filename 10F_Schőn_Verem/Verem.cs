@@ -30,7 +30,7 @@ namespace _10F_Schőn_Verem
             }
             else
             {
-                Console.WriteLine("Hát ez a verem bizony üres.");
+                Console.Error.WriteLine("Hát ez a verem bizony üres.");
                 throw new Exception();
             }
         }
