@@ -35,9 +35,7 @@ namespace _10F_Schőn_Verem
                 if (!Empty())
                 {
                     T result = Peek();
-
                     fejelem.le = fejelem.le.le; // ezt lehetne Elem metódusnak is! "kifűzés";
-
                     return result;
                 }
                 else
@@ -75,7 +73,25 @@ namespace _10F_Schőn_Verem
             szamverem.Push(25);
             Console.WriteLine(szamverem);
 
-            Math.Sqrt(5);
+            Console.WriteLine(szamverem.Peek());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+            Console.WriteLine(szamverem);
+            Console.WriteLine(szamverem.Pop());
+
+//            Stack<int> gyáriverem = new Stack<int>();
         }
     }
 }
